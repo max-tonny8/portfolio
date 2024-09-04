@@ -1,0 +1,22 @@
+[
+	{
+		"project": "Pump.fun",
+		"url": "",
+		"repo": "Private",
+		"descriptionTitle": "Pump.fun is a platform",
+		"description": "that aims to create a playful, gamified experience around Bitcoin Ordinals and digital assets on the Bitcoin network. It leverages the Ordinals protocol, which allows data, such as images, text, and other types of digital assets, to be inscribed directly onto individual satoshis (the smallest unit of Bitcoin).",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "300", "w": "300", "url": "/img/logly.png" }
+
+		],
+		"stack": [
+			{ "key": "nodejs", "name": "NodeJS", "type": "devicon" },
+			{ "key": "react", "name": "React", "type": "devicon" },
+			{ "key": "typescript", "name": "TypeScript", "type": "devicon" },
+			{ "key": "tailwindcss", "name": "TailwindCSS", "type": "devicon" }
+		]
+
+	}
+]

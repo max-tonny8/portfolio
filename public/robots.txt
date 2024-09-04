@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: *
+
+# Host
+Host: https://localhost:3000
+Host: https://www.localhost:3000
+
+# Sitemaps
+Sitemap: https://localhost:3000/sitemap.xml
+Sitemap: https://localhost:3000/sitemap-0.xml
