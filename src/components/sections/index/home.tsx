@@ -25,7 +25,7 @@ export default function Home() {
         <section className={about.content}>
           <div className={about.image}>
             <Image
-              src="/img/user.jpg"
+              src="/img/mine.jpg"
               width={600}
               height={800}
               alt="Tonny Jansen"
@@ -37,14 +37,14 @@ export default function Home() {
               title="FullStack"
               containerClass={about.container}
               iconClass={about.icon}
-              icon={["fas", "user"]}
+              icon="user"
               copy="With a strong foundation in both design and development, I am a versatile full-stack developer who thrives on creating high-quality, user-centric applications. My technical expertise spans front-end and back-end development, allowing me to build robust, scalable solutions. Alongside my coding proficiency, I bring strong leadership, time management, and multitasking skills, which have been refined through overseeing complex development projects from inception to deployment."
             />
             <CopyBlock
               title="Development and Projects"
               containerClass={about.container}
               iconClass={about.icon}
-              icon={["fas", "code"]}
+              icon="code"
               copy="I am deeply passionate about development and project execution, finding fulfillment in transforming ideas into functional, robust solutions through coding. I excel in navigating the complexities of turning concepts into reality, using meticulous planning, efficient workflows, and a sharp eye for detail. My approach ensures that projects are delivered successfully, meeting all objectives while consistently exceeding expectations."
             />
           </div>
@@ -55,14 +55,14 @@ export default function Home() {
               title="Security and Privacy"
               containerClass={about.container}
               iconClass={about.icon}
-              icon={["fas", "shield-alt"]}
+              icon="shield-alt"
               copy="My development approach is rooted in a strong commitment to security and privacy. I prioritize the protection of sensitive data by implementing rigorous security protocols and adhering to the highest industry standards. By continuously monitoring for emerging threats and vulnerabilities, I ensure that user information remains secure. Trust and confidentiality are the pillars of my work, and I am dedicated to delivering secure, privacy-focused solutions that meet and exceed industry expectations."
             />
             <CopyBlock
               title="Constant Learning and Improvements"
               containerClass={about.container}
               iconClass={about.icon}
-              icon={["fas", "book"]}
+              icon="book"
               copy="I am committed to continuous learning and professional growth, with a strong focus on staying current with the latest industry trends and emerging technologies. This dedication enables me to remain at the forefront of innovation, consistently expanding my skill set and seeking new challenges. By embracing a mindset of constant improvement, I deliver cutting-edge solutions and provide strategic insights that drive value for clients and stakeholders."
             />
 
@@ -85,22 +85,22 @@ export default function Home() {
 }
 const methods = [
   {
-    key: "rustlearning",
+    key: "rust",
     name: "Rust Learning",
-    type: "fad",
+    type: "",
     icon: "devicon",
   },
   {
     key: "solana",
     name: "Solana Learning",
-    type: "fad",
+    type: "",
     icon: "devicon",
   },
-  { key: "deeplearning", name: "Deep Learning", type: "fad", icon: "devicon" },
+  { key: "deeplearning", name: "Deep Learning", type: "", icon: "devicon" },
   {
-    key: "soliditylearning",
+    key: "solidity",
     name: "Solidity Learning",
-    type: "fad",
+    type: "",
     icon: "devicon",
   },
 ];

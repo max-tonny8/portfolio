@@ -118,7 +118,7 @@ a:hover {
     color: var(--primary-bright)
 }
 
-a:hover [data-prefix=far][data-icon=arrow-up-right-from-square] {
+a:hover [data-icon=link] {
     color: var(--primary)
 }
 
@@ -126,7 +126,7 @@ a:hover h3 {
     color: var(--primary-bright)
 }
 
-a [data-prefix=far][data-icon=arrow-up-right-from-square] {
+a [data-icon=link] {
     height: .75rem;
     vertical-align: -1.5px;
     color: var(--primary-dim)
@@ -197,3 +197,10 @@ a svg {
 }
 
 /*# sourceMappingURL=global.css.map */
+a>svg {
+    width: 40px;
+}
+
+span>svg {
+    width: 40px;
+}

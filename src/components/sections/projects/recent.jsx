@@ -22,8 +22,7 @@ export default function GitProjects({ repos, user }) {
           <span className={css.details}>
             <p>{user[0]?.name}</p>
             <a href={user[0]?.html_url} rel="noreferrer" target="_blank">
-              {user[0]?.html_url}{" "}
-              <Icon icon={["far", "arrow-up-right-from-square"]} />
+              {user[0]?.html_url} <Icon icon="link" />
             </a>
           </span>
         </section>
@@ -48,8 +47,7 @@ export default function GitProjects({ repos, user }) {
                 <article key={index} className={css.project}>
                   <span className={css.header}>
                     <a href={html_url} rel="noreferrer" target="_blank">
-                      {name}{" "}
-                      <Icon icon={["fad", "arrow-up-right-from-square"]} />
+                      {name} <Icon icon="link" />
                     </a>
                     <p className={css.homepage}>{homepage}</p>
                   </span>
@@ -66,10 +64,10 @@ export default function GitProjects({ repos, user }) {
                       </p>
                     )}
                     <p>
-                      <Icon icon={["fad", "star"]} /> {watchers}
+                      <Icon icon="star" /> {watchers}
                     </p>
                     <p>
-                      <Icon icon={["fad", "code-branch"]} /> {forks_count}
+                      <Icon icon="codeBranch" /> {forks_count}
                     </p>
                     <p className={css.pushedAt}>{date}</p>
                   </span>

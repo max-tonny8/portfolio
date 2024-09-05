@@ -112,7 +112,7 @@ a {
 	&:hover {
 		color: var(--primary-bright);
 
-		[data-prefix="far"][data-icon="arrow-up-right-from-square"] {
+		[data-icon=link] {
 			color: var(--primary);
 		}
 
@@ -123,7 +123,7 @@ a {
 
 	
 
-	[data-prefix="far"][data-icon="arrow-up-right-from-square"] {
+	[data-icon=link] {
 		height: .75rem;
 		vertical-align: -1.5px;
 		color: var(--primary-dim);
