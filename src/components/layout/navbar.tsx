@@ -6,7 +6,6 @@ import ThemeMode from "../utils/theme"; // Import a custom utility for theme mod
 import settings from "../../content/_settings.json"; // Import site settings from a JSON file
 import content from "../../content/navbar.json"; // Import navigation content from a JSON file
 import css from "../../styles/scss/structure/navbar.module.scss"; // Import SCSS styles for the navbar
-import Cookies from "js-cookie"; // Import a library for handling cookies
 import Image from "next/image"; // Import Next.js Image component for optimized images
 
 // Declare the 'sticky' property on the 'window' object to avoid TypeScript errors
@@ -39,34 +38,20 @@ export default function Navbar() {
   const router = useRouter();
   const [menuState, menuToggle] = useState<boolean | undefined>();
 
-  // Retrieve email and password cookies
-  const email = Cookies.get("email");
-  const password = Cookies.get("password");
-
   let signInContent; // Declare a variable to hold sign-in content
 
   // Determine the sign-in content based on cookie existence
-  if (email && password) {
-    // If email and password cookies exist, show the user's profile image
-    signInContent = (
-      <div className={css.circleImage}>
-        <Image
-          src="/img/user.jpg"
-          width={34}
-          height={34}
-          alt="Profile Image"
-          loading="eager"
-        />
-      </div>
-    );
-  } else {
-    // If email and password cookies do not exist, show the "Sign In" button
-    signInContent = (
-      <button className={css.signInButton}>
-        <Link href="/signin">Sign In</Link>
-      </button>
-    );
-  }
+  signInContent = (
+    <div className={css.circleImage}>
+      <Image
+        src="/img/user.jpg"
+        width={34}
+        height={34}
+        alt="Profile Image"
+        loading="eager"
+      />
+    </div>
+  );
 
   // useEffect: Set the initial menu state to false
   useEffect(() => {

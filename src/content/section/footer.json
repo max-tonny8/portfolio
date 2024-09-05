@@ -2,7 +2,7 @@
 	"Websites": [
 		{
 			"person": "localhost:3000",
-			"link": "https://localhost:3000/",
+			"link": "http://localhost:3000/",
 			"note": ""
 		}
 	],
@@ -10,23 +10,18 @@
 	"links": [
 		{
 			"person": "Home",
-			"link": "https://localhost:3000/",
+			"link": "http://localhost:3000/",
 			"note": ""
 		},
 		{ 
 			"person": "Documentations",
-			"link": "https://localhost:3000/docs",
+			"link": "http://localhost:3000/docs",
 			"note": ""
 		},
 
 		{
 			"person": "Projects",
-			"link": "https://localhost:3000/projects",
-			"note": ""
-		},
-		{
-			"person": "Contact",
-			"link": "mailto:contact@localhost:3000",
+			"link": "http://localhost:3000/projects",
 			"note": ""
 		}
 
@@ -35,16 +30,8 @@
 
 	"social": [
 		{
-			"url": "https://medium.com/@tonny_x_bit",
-			"icon": "medium"
-		},
-		{
-			"url": "https://dev.to/muhammadfiaz",
-			"icon": "dev"
-		},
-		{
-			"url": "https://www.linkedin.com/in/tonny0831-/",
-			"icon": "linkedin"
+			"url": "https://x.com/Bat_Btc",
+			"icon": "twitter"
 		},
 		{
 			"url": "https://github.com/tonny0831",
