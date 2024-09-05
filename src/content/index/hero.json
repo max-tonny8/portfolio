@@ -1,0 +1,32 @@
+{
+	"intro": {
+		"start": "const myName = () =>",
+		"end": "Hey there!, my name is",
+		"speed": 60,
+		"deletionSpeed": 80,
+		"wrapper": "h2",
+		"startDelay": 1000,
+		"deleteDelay": 3000,
+		"restartDelay": 12000
+	},
+
+	"header": {
+		"name": "Tonny Jansen.",
+		"usp": "Passionate Full Stack, Ordinals, Rune and Web3 Developer."
+	},
+
+	"paragraph": "From an early age, I am particularly focused on emerging decentralized protocols such as Ordinals and Rune, which are pushing the boundaries of digital asset innovation and decentralized finance (DeFi). I am deeply committed to leveraging my technical skills to contribute to the advancement of Web3, ensuring a more decentralized, user-empowered internet that aligns with the future of digital assets and decentralized applications.",
+
+	"buttons": {
+		"primary": {
+			"title": "Hire Me",
+			"url": "tonnyjansen0831@gmail.com",
+			"leaveSite": false
+		},
+		"secondary": {
+			"title": "LinkedIn",
+			"url": "",
+			"leaveSite": "true"
+		}
+	}
+}

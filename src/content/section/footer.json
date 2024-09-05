@@ -1,0 +1,41 @@
+{
+	"Websites": [
+		{
+			"person": "localhost:3000",
+			"link": "http://localhost:3000/",
+			"note": ""
+		}
+	],
+
+	"links": [
+		{
+			"person": "Home",
+			"link": "http://localhost:3000/",
+			"note": ""
+		},
+		{ 
+			"person": "Documentations",
+			"link": "http://localhost:3000/docs",
+			"note": ""
+		},
+
+		{
+			"person": "Projects",
+			"link": "http://localhost:3000/projects",
+			"note": ""
+		}
+
+
+	],
+
+	"social": [
+		{
+			"url": "https://x.com/Bat_Btc",
+			"icon": "twitter"
+		},
+		{
+			"url": "https://github.com/tonny0831",
+			"icon": "github"
+		}
+	]
+}
