@@ -227,13 +227,11 @@ export default function Navbar() {
         <li data-open={menuState} className={css.menuContent}>
           <ul>
             {content.map(({ url, title }, index) => {
-              if (title !== "Articles") {
-                return (
-                  <li key={index}>
-                    <Link href={url}>{title}</Link>
-                  </li>
-                );
-              }
+              return (
+                <li key={index}>
+                  <Link href={url}>{title}</Link>
+                </li>
+              );
             })}
             <li>
               <ThemeMode />
