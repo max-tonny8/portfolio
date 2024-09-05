@@ -1,30 +1,64 @@
+import React from "react";
+import { IconType } from "react-icons";
+import {
+  FaArrowRight,
+  FaBook,
+  FaCircleNotch,
+  FaCode,
+  FaCodeBranch,
+  FaCoffee,
+  FaExternalLinkAlt,
+  FaFingerprint,
+  FaGithub,
+  FaLaptopCode,
+  FaRegUser,
+  FaRust,
+  FaShieldAlt,
+  FaStar,
+  FaTwitter,
+} from "react-icons/fa";
+import { FaMedium, FaRightToBracket } from "react-icons/fa6";
+import { BiNetworkChart } from "react-icons/bi";
+import { TbLayoutGridAdd } from "react-icons/tb";
+import { SiGreatlearning, SiSolana, SiSolidity } from "react-icons/si";
 
-import React, {useEffect, useState} from 'react';
-import {IconName, IconPrefix, library} from '@fortawesome/fontawesome-svg-core';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {fas} from '@fortawesome/pro-solid-svg-icons';
-import {fat} from '@fortawesome/pro-thin-svg-icons';
-import {fal} from '@fortawesome/pro-light-svg-icons';
-import {fad} from '@fortawesome/pro-duotone-svg-icons';
-import {far} from '@fortawesome/pro-regular-svg-icons';
-import {fab} from '@fortawesome/free-brands-svg-icons';
+// Add any more icons you need here
+const iconsMap: Record<string, IconType> = {
+  "circle-notch": FaCircleNotch,
+  "arrow-right": FaArrowRight,
+  coffee: FaCoffee,
+  twitter: FaTwitter,
+  github: FaGithub,
+  link: FaExternalLinkAlt,
+  codeBranch: FaCodeBranch,
+  star: FaStar,
+  bracket: FaRightToBracket,
+  medium: FaMedium,
+  user: FaRegUser,
+  code: FaCode,
+  "shield-alt": FaShieldAlt,
+  book: FaBook,
+  fingerprint: FaFingerprint,
+  "chart-network": BiNetworkChart,
+  "grid-2-plus": TbLayoutGridAdd,
+  "laptop-code": FaLaptopCode,
+  rust: FaRust,
+  solana: SiSolana,
+  solidity: SiSolidity,
+  deeplearning: SiGreatlearning,
 
-// Icons
-library.add(fat, fal, fas, fad, far, fab);
+  // Add more icons as needed
+};
 
 interface IconProps {
-	icon: [IconPrefix, IconName];
+  icon: string; // Use a string for the icon name
 }
 
 const Icon: React.FC<IconProps> = ({ icon }) => {
-	const [iconType, iconKey] = icon;
-	const [stateIconKey, setIconKey] = useState<IconName>('circle-notch');
+  // Find the corresponding icon component from the map
+  const IconComponent = iconsMap[icon] || FaCircleNotch; // Default to FaCircleNotch
 
-	useEffect(() => {
-		setIconKey(iconKey as IconName);
-	}, [iconKey]);
-
-	return <FontAwesomeIcon icon={[iconType as IconPrefix, stateIconKey]} />;
+  return <IconComponent />;
 };
 
 export default Icon;

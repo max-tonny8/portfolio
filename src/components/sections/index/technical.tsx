@@ -28,7 +28,7 @@ export default function Technical() {
           <div className={technical.copy}>
             <CopyBlock
               title="Logical Thinking"
-              icon={["fas", "chart-network"]}
+              icon="chart-network"
               copy="With a strong foundation in both design and development, I leverage logical thinking to approach every project. I bring a unique perspective, constantly seeking innovative solutions and staying up-to-date with the latest industry trends."
               iconClass={technical.icon}
               containerClass={technical.container}

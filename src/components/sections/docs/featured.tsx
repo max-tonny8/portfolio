@@ -41,8 +41,7 @@ export default function Recent({}) {
                     </span>
                     <span className={css.header}>
                       <a href={link} rel="noreferrer" target="_blank">
-                        {title}{" "}
-                        <Icon icon={["fad", "arrow-up-right-from-square"]} />
+                        {title} <Icon icon="link" />
                       </a>
                     </span>
                     <span className={css.descriptionContainer}></span>
@@ -54,7 +53,7 @@ export default function Recent({}) {
                       {categories.map((e, index) => {
                         return (
                           <span key={index} className={css.topics}>
-                            <Icon icon={["fab", "medium"]} /> {e}
+                            <Icon icon="medium" /> {e}
                           </span>
                         );
                       })}
