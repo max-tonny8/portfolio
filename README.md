@@ -77,7 +77,7 @@ To run the project locally, follow these steps:
 2. Navigate to the project directory: `cd portfolio`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm run dev`
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+5. Open [tonny-portfolio.vercel.app](tonny-portfolio.vercel.app) in your browser to view the website.
 
 ## Available Scripts
 
@@ -86,7 +86,7 @@ In the project directory, you can run the following scripts:
 ### `npm run dev`
 
 Runs the app in development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.\
+Open [tonny-portfolio.vercel.app](tonny-portfolio.vercel.app) to view it in the browser.\
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
@@ -105,7 +105,7 @@ This is useful if you want to use [webpack plugins](https://nextjs.org/docs/app/
 ### `npm start`
 
 Starts the production server to serve the built app.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [tonny-portfolio.vercel.app](tonny-portfolio.vercel.app) to view it in the browser.
 
 ### `next export`
 

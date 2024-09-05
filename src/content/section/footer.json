@@ -1,8 +1,8 @@
 {
 	"Websites": [
 		{
-			"person": "localhost:3000",
-			"link": "http://localhost:3000/",
+			"person": "tonny",
+			"link": "tonny-portfolio.vercel.app/",
 			"note": ""
 		}
 	],
@@ -10,22 +10,20 @@
 	"links": [
 		{
 			"person": "Home",
-			"link": "http://localhost:3000/",
+			"link": "tonny-portfolio.vercel.app/",
 			"note": ""
 		},
 		{ 
 			"person": "Documentations",
-			"link": "http://localhost:3000/docs",
+			"link": "tonny-portfolio.vercel.app/docs",
 			"note": ""
 		},
 
 		{
 			"person": "Projects",
-			"link": "http://localhost:3000/projects",
+			"link": "tonny-portfolio.vercel.app/projects",
 			"note": ""
 		}
-
-
 	],
 
 	"social": [
