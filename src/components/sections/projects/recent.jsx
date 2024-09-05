@@ -21,7 +21,12 @@ export default function GitProjects({ repos, user }) {
           />
           <span className={css.details}>
             <p>{user[0]?.name}</p>
-            <a href={user[0]?.html_url} rel="noreferrer" target="_blank">
+            <a
+              href={user[0]?.html_url}
+              rel="noreferrer"
+              target="_blank"
+              className="flex items-center"
+            >
               {user[0]?.html_url} <Icon icon="link" />
             </a>
           </span>
@@ -46,7 +51,12 @@ export default function GitProjects({ repos, user }) {
               return (
                 <article key={index} className={css.project}>
                   <span className={css.header}>
-                    <a href={html_url} rel="noreferrer" target="_blank">
+                    <a
+                      href={html_url}
+                      rel="noreferrer"
+                      target="_blank"
+                      className="flex items-center"
+                    >
                       {name} <Icon icon="link" />
                     </a>
                     <p className={css.homepage}>{homepage}</p>
@@ -63,19 +73,19 @@ export default function GitProjects({ repos, user }) {
                         {language}
                       </p>
                     )}
-                    <p>
+                    <p className="flex items-center gap-4">
                       <Icon icon="star" /> {watchers}
                     </p>
-                    <p>
+                    <p className="flex items-center gap-4">
                       <Icon icon="codeBranch" /> {forks_count}
                     </p>
                     <p className={css.pushedAt}>{date}</p>
                   </span>
                   <span className={css.topicsContainer}>
                     {topics.map((e, index) => (
-                      <span key={index} className={css.topics}>
-                        <i className="devicon-github-plain"></i> {e}
-                      </span>
+                      <p key={index} className={css.topics}>
+                        <Icon icon={e} /> {e}
+                      </p>
                     ))}
                   </span>
                 </article>

@@ -5,6 +5,17 @@
     "link": "https://github.com/tonny0831/logly#readme",
     "author": "Tonny Jansen",
     "thumbnail": "/img/logly.png",
-    "categories": ["ReactJS","NodeJS","TypeScript","Tailwindcss"]
+    "categories": [
+      {
+        "name": "ReactJS",
+        "icon": "react"
+      },
+      {
+        "name": "NodeJS",
+        "icon": "node"
+      },
+      { "name": "TypeScript", "icon": "typescript" },
+      { "name": "Tailwindcss", "icon": "tailwind" }
+    ]
   }
 ]
