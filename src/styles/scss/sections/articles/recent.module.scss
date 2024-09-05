@@ -93,6 +93,9 @@
 			right: 0;
 		}
 		.topics {
+			display: flex;
+			align-items: center;
+			gap: 8px;
 			margin: 0.25rem 0;
 			font-size: 0.7rem;
 			font-weight: 400;

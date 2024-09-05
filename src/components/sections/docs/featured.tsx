@@ -52,9 +52,9 @@ export default function Recent({}) {
                     <span className={css.topicsContainer}>
                       {categories.map((e, index) => {
                         return (
-                          <span key={index} className={css.topics}>
-                            <Icon icon="medium" /> {e}
-                          </span>
+                          <p key={index} className={css.topics}>
+                            <Icon icon={e.icon} /> {e.name}
+                          </p>
                         );
                       })}
                     </span>
