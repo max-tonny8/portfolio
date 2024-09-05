@@ -2,7 +2,7 @@
 	"Websites": [
 		{
 			"person": "tonny",
-			"link": "tonny-portfolio.vercel.app/",
+			"link": "tonny0831-portfolio.vercel.app/",
 			"note": ""
 		}
 	],
@@ -10,18 +10,18 @@
 	"links": [
 		{
 			"person": "Home",
-			"link": "tonny-portfolio.vercel.app/",
+			"link": "tonny0831-portfolio.vercel.app/",
 			"note": ""
 		},
 		{ 
 			"person": "Documentations",
-			"link": "tonny-portfolio.vercel.app/docs",
+			"link": "tonny0831-portfolio.vercel.app/docs",
 			"note": ""
 		},
 
 		{
 			"person": "Projects",
-			"link": "tonny-portfolio.vercel.app/projects",
+			"link": "tonny0831-portfolio.vercel.app/projects",
 			"note": ""
 		}
 	],
