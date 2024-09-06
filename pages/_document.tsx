@@ -98,16 +98,16 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="https://avatars.githubusercontent.com/u/75434191?v=4"
+          content="https://jade-obvious-asp-686.mypinata.cloud/ipfs/QmV1K5hrAKfKn9iZnamVoW4sakQCjy5cZyRYzZhmMXtMpp"
         />
         <meta
           property="og:image:secure_url"
-          content="https://avatars.githubusercontent.com/u/75434191?v=4"
+          content="https://jade-obvious-asp-686.mypinata.cloud/ipfs/QmV1K5hrAKfKn9iZnamVoW4sakQCjy5cZyRYzZhmMXtMpp"
         />
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:alt" content="Tonny Jansen" />
         <meta property="og:image:width" content="300" />
-        <meta property="og:image:height" content="300" />
+        <meta property="og:image:height" content="500" />
         {/* <meta property="og:url" content="https://localhost:3000" /> */}
         <meta property="og:type" content="website" />
         <meta property="og:profile" content="https://github.com/tonny0831" />
@@ -123,7 +123,7 @@ export default function Document() {
         />
         <meta
           name="twitter:image"
-          content="https://avatars.githubusercontent.com/u/75434191?v=4"
+          content="https://jade-obvious-asp-686.mypinata.cloud/ipfs/QmV1K5hrAKfKn9iZnamVoW4sakQCjy5cZyRYzZhmMXtMpp"
         />
         <meta name="twitter:creator" content="https://twitter.com/Bat_Btc" />
         {/* <meta name="twitter:domain" content="https://localhost:3000" /> */}
