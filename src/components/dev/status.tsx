@@ -119,7 +119,7 @@ const DevelopmentNotice: React.FC = () => {
               </p>
               <p style={{ fontSize: "14px", marginBottom: "30px" }}>
                 If you encounter any issues or bugs, please report them{" "}
-                <a href="https://github.com/tonny0831/portfolio/issues/new">
+                <a href="https://github.com/max-tonny8/portfolio/issues/new">
                   @tonny_x_bit
                 </a>
               </p>
@@ -151,7 +151,7 @@ const DevelopmentNotice: React.FC = () => {
                   dangerouslySetInnerHTML={{
                     __html: WelMsg.replace(
                       "Github",
-                      '<a href="https://github.com/tonny0831" target="_blank" rel="noopener noreferrer" style="color: #3498db;">Github</a>'
+                      '<a href="https://github.com/max-tonny8" target="_blank" rel="noopener noreferrer" style="color: #3498db;">Github</a>'
                     ),
                   }}
                 />
@@ -205,7 +205,7 @@ const DevelopmentNotice: React.FC = () => {
               Current Version:{" "}
               {versionDetails ? (
                 <a
-                  href={`https://github.com/tonny0831/portfolio/releases/tag/v${versionDetails.currentVersion}`}
+                  href={`https://github.com/max-tonny8/portfolio/releases/tag/v${versionDetails.currentVersion}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

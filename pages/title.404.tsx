@@ -6,7 +6,7 @@ export default function Title404() {
     <Head>
       {/*
 				Author: Tonny Jansen
-                 GitHub: Visit the GitHub repository at https://github.com/tonny0831/portfolio/ for more details.
+                 GitHub: Visit the GitHub repository at https://github.com/max-tonny8/portfolio/ for more details.
                  license: MIT License
                   */}
       <meta charSet="utf-8" />

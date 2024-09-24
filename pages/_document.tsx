@@ -8,7 +8,7 @@ export default function Document() {
       <Head>
         {/*
 				Author: Tonny Jansen
-                 GitHub: Visit the GitHub repository at https://github.com/tonny0831/portfolio/ for more details.
+                 GitHub: Visit the GitHub repository at https://github.com/max-tonny8/portfolio/ for more details.
                  license: MIT License
                   */}
         <meta charSet="utf-8" />
@@ -110,7 +110,7 @@ export default function Document() {
         <meta property="og:image:height" content="500" />
         {/* <meta property="og:url" content="https://localhost:3000" /> */}
         <meta property="og:type" content="website" />
-        <meta property="og:profile" content="https://github.com/tonny0831" />
+        <meta property="og:profile" content="https://github.com/max-tonny8" />
         <meta property="og:site_name" content="Tonny Jansen" />
         <meta property="og:locale" content="en_US" />
 
@@ -220,7 +220,7 @@ export default function Document() {
           "name": "Tonny Jansen",
           "url": "",
           "sameAs": [
-            "https://github.com/tonny0831",
+            "https://github.com/max-tonny8",
             "https://twitter.com/Bat_Btc",
           ]
         }`,
@@ -322,7 +322,7 @@ export default function Document() {
             "name": "NeuroLink",
             "description": "NeuroLink is a Python package that aims to provide various AI capabilities, including a image processing, audio processing, Django support, and more. It utilizes TensorFlow and other related technologies for natural language processing and AI tasks.",
             "alternateName": "neurolink",
-            "url": "https://github.com/tonny0831/neurolink",
+            "url": "https://github.com/max-tonny8/neurolink",
             "logo": "",
              "sameAs": [
             ""

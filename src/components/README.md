@@ -5,7 +5,7 @@ You can import and use these components within your portfolio website to structu
 
 Feel free to expand and customize these components to suit your needs.
 
-Make Sure to [Fork](https://github.com/tonny0831/portfolio/fork) This Repository to your GitHub Account and [Star⭐ it](https://github.com/tonny0831/portfolio/stargazers).
+Make Sure to [Fork](https://github.com/max-tonny8/portfolio/fork) This Repository to your GitHub Account and [Star⭐ it](https://github.com/max-tonny8/portfolio/stargazers).
 
 ## Support Me
 
@@ -14,8 +14,8 @@ Enjoying my work? Consider supporting me by buying me a cup of coffee or becomin
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-orange?logo=buy-me-a-coffee&s=20)](https://www.buymeacoffee.com/muhammadfiaz)
 [![Patreon](https://img.shields.io/badge/Patreon-Support-red?logo=patreon&s=20)](https://www.patreon.com/muhammad_fiaz)
 <a href="https://ko-fi.com/muhammadfiaz"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi" height="20"></a>
-[![Sponsor tonny0831](https://img.shields.io/badge/Sponsor-muhammad--fiaz-brightgreen?logo=github)](https://github.com/sponsors/tonny0831)
+[![Sponsor max-tonny8](https://img.shields.io/badge/Sponsor-muhammad--fiaz-brightgreen?logo=github)](https://github.com/sponsors/max-tonny8)
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/tonny0831/portfolio/blob/main/LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/max-tonny8/portfolio/blob/main/LICENSE.md) file for details.

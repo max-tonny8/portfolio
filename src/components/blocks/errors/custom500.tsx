@@ -47,7 +47,7 @@ function Custom500() {
         </p>
         <p style={{ fontSize: "14px" }}>
           If you think this issues or bugs, please report them{" "}
-          <a href="https://github.com/tonny0831/portfolio/issues/new">
+          <a href="https://github.com/max-tonny8/portfolio/issues/new">
             @tonny_x_bit
           </a>
         </p>

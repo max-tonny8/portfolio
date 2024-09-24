@@ -1,16 +1,16 @@
 # Issue Guidelines
 
-Thank you for considering creating an [issue](https://github.com/tonny0831/portfolio/issues/new) for our project. To help us address your concern or request more efficiently, please follow these guidelines:
+Thank you for considering creating an [issue](https://github.com/max-tonny8/portfolio/issues/new) for our project. To help us address your concern or request more efficiently, please follow these guidelines:
 
 ## Before Creating an Issue
 
-1. **Search for Duplicates:** Before creating a [new issue](https://github.com/tonny0831/portfolio/issues/new), please search [existing issues](https://github.com/tonny0831/portfolio/issues) to ensure that your problem or suggestion hasn't already been reported or discussed.
+1. **Search for Duplicates:** Before creating a [new issue](https://github.com/max-tonny8/portfolio/issues/new), please search [existing issues](https://github.com/max-tonny8/portfolio/issues) to ensure that your problem or suggestion hasn't already been reported or discussed.
 
 2. **Read Documentation:** Check the project documentation, [README](README.md), and any relevant documentation to see if your issue is addressed there.
 
 ## Creating a New Issue
 
-When creating a [new issue](https://github.com/tonny0831/portfolio/issues/new), please provide the following information:
+When creating a [new issue](https://github.com/max-tonny8/portfolio/issues/new), please provide the following information:
 
 1. **Issue Summary:** Provide a clear and concise summary of the issue or request.
 

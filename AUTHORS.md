@@ -1,3 +1,3 @@
 # Authors
 
-- Tonny Jansen ([GitHub](https://github.com/tonny0831))
+- Tonny Jansen ([GitHub](https://github.com/max-tonny8))

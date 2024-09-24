@@ -17,7 +17,7 @@ To report a vulnerability in the repository, please follow these steps:
 
 1. Go to the [Issues](https://github.com/portfolio/repository/issues) section of the repository.
 
-2. Click on the "[New Issue](https://github.com/tonny0831/portfolio/issues/new)" button.
+2. Click on the "[New Issue](https://github.com/max-tonny8/portfolio/issues/new)" button.
 
 3. Select the "Vulnerability Report" issue template.
 

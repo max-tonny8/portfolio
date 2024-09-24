@@ -97,11 +97,11 @@
 	"version": "1.0.7",
 	"description": "Open source portfolio website built with Next.js amd TypeScript.",
 	"main": "pages/index.tsx",
-	"repository": "https://github.com/tonny0831/portfolio.git",
-	"homepage": "https://github.com/tonny0831/portfolio#readme",
+	"repository": "https://github.com/max-tonny8/portfolio.git",
+	"homepage": "https://github.com/max-tonny8/portfolio#readme",
 	"bugs": {
-		"url": "https://github.com/tonny0831/portfolio/issues/new"
+		"url": "https://github.com/max-tonny8/portfolio/issues/new"
 	},
-	"author": "tonny0831 <contact@localhost:3000>",
+	"author": "max-tonny8 <contact@localhost:3000>",
 	"license": "MIT"
 }
