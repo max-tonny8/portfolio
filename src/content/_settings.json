@@ -7,18 +7,18 @@
 	"version": "1.0.6",
 
 	"username": {
-		"github": "tonny0831",
+		"github": "max-tonny8",
 		"medium": "@tonny_x_bit",
 		"dev": "tonnyjansen"
 	},
 	"repository": {
-		"owner": "tonny0831",
+		"owner": "max-tonny8",
 		"name": "portfolio",
 		"repoName": "portfolio"
 	},
 	"portfolio": {
 		"fork_this": "Open-Source project 🥰",
-		"repo_html": "https://github.com/tonny0831/portfolio.git",
-		"repo_api": "https://api.github.com/repos/tonny0831/portfolio"
+		"repo_html": "https://github.com/max-tonny8/portfolio.git",
+		"repo_api": "https://api.github.com/repos/max-tonny8/portfolio"
 	}
 }

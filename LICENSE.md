@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2023 [Tonny Jansen](https://github.com/tonny0831)
+Copyright (c) 2023 [Tonny Jansen](https://github.com/max-tonny8)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

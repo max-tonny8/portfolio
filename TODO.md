@@ -1,4 +1,4 @@
-## [Todo List](https://github.com/tonny0831/portfolio/blob/main/TODO.md)
+## [Todo List](https://github.com/max-tonny8/portfolio/blob/main/TODO.md)
 
 ### General
 
@@ -59,4 +59,4 @@
 
 ## Notice
 
-**Please note that this checklist is dynamic, and the listed tasks may change or be refined as the project progresses. It's essential to remain flexible and adapt to evolving requirements. For the most up-to-date list, refer to [this link](https://github.com/tonny0831/portfolio/blob/main/TODO.md).**
+**Please note that this checklist is dynamic, and the listed tasks may change or be refined as the project progresses. It's essential to remain flexible and adapt to evolving requirements. For the most up-to-date list, refer to [this link](https://github.com/max-tonny8/portfolio/blob/main/TODO.md).**
