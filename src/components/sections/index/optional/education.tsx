@@ -22,7 +22,7 @@ export default function Education() {
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
                 <h3>Aarhus University</h3>
-                <h5>Aabenraa, Denmark</h5>
+                <h5>Nørager, Denmark</h5>
               </span>
               <p>
                 I am currently pursuing my Bachelors degree in Computer Science

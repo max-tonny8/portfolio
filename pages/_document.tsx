@@ -221,7 +221,7 @@ export default function Document() {
           "url": "",
           "sameAs": [
             "https://github.com/max-tonny8",
-            "https://twitter.com/Bat_Btc",
+            "https://x.com/max_tonny8",
           ]
         }`,
           }}
@@ -265,7 +265,7 @@ export default function Document() {
                 "name": "Where is Tonny Jansen from?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Tonny Jansen is from Aabenraa, Denmark."
+                  "text": "Tonny Jansen is from Nørager, Denmark."
                 }
               },
               {
